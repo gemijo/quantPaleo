@@ -3,6 +3,7 @@
 ### A randomization test for the difference in medians
 ### The function below is designed to test the hypothesis that two samples are from populations with the same median value. 
 ### Copy and paste this function into R.  The function will now be available to use.
+### new line
 
 median_test <- function(a,b,nsim=999){
   diff <- abs(median(a)-median(b))  #the absolute value of the difference of the two medians
